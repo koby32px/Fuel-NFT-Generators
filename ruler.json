@@ -1,0 +1,20 @@
+{
+  "rules": [
+    {
+      "if": {
+        "trait_type": "Mouth",
+        "value": [
+          "Stache"
+        ]
+      },
+      "then": {
+        "trait_type": "Eyes",
+        "excluded_values": [
+          "Kawaii VR",
+          "Diving Glass",
+          "Small"
+        ]
+      }
+    }
+  ]
+}
